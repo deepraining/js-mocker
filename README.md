@@ -20,6 +20,7 @@ js-mocker [options] <dir>
 
 ## 参数
 
+- `dir`: 把 `dir` 目录下的所有文件，根据路径映射成 API
 - `-p, --port <port>`: 使用的端口 (默认 8092)
 
 ## 使用的第三方库

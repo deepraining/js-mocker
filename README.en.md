@@ -20,6 +20,7 @@ js-mocker [options] <dir>
 
 ## options
 
+- `dir`: mapping all files under `dir` directory to api, based on file's path
 - `-p, --port <port>`: Port to use (defaults to 8092)
 
 ## used libraries
