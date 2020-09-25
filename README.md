@@ -6,16 +6,16 @@
 
 ## 快速开始
 
-安装 js-mocker:
+安装 js-mocker(只能安装到本地，不能安装到全局):
 
 ```
-npm install js-mocker -g
+npm install js-mocker --save-dev
 ```
 
-使用:
+使用(可以用 [npm scripts](https://docs.npmjs.com/misc/scripts) 或 [npx](https://www.npmjs.com/package/npx) 运行命令):
 
 ```
-js-mocker [options] <dir>
+npx js-mocker [options] <dir>
 ```
 
 ## 参数

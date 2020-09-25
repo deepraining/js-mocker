@@ -6,13 +6,13 @@ Use js files to make mock data.
 
 ## quick start
 
-Install js-mocker:
+Install js-mocker (Only works in local, not in global):
 
 ```
-npm install js-mocker -g
+npm install js-mocker --save-dev
 ```
 
-Usage:
+Usage (You can use [npm scripts](https://docs.npmjs.com/misc/scripts) or [npx](https://www.npmjs.com/package/npx) to run this command):
 
 ```
 js-mocker [options] <dir>
